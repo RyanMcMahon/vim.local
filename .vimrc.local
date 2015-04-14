@@ -1,0 +1,16 @@
+" show 80 character limit
+set colorcolumn=80
+
+" Tab indent
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+
+" Open buffers with ctrlp
+noremap <silent> <c-b> :CtrlPBuffer<CR>
+
+" disable neocomplcache
+let g:neocomplcache_disable_auto_complete=1
+
+" disable (|{ complete
+let g:autoclose_on=0
