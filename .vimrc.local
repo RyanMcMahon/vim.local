@@ -18,3 +18,14 @@ let g:neocomplcache_disable_auto_complete=1
 
 " disable (|{ complete
 let g:autoclose_on=0
+
+" disable syntastic for sass
+let g:syntastic_mode_map = { 'passive_filetypes': ['sass', 'scss'] }
+
+" stupid word stuff
+set isk-=-
+set isk-=#
+set isk-=.
+
+UnBundle 'gorodinskiy/vim-coloresque'
+UnBundle 'tpope/vim-rails'
