@@ -1,5 +1,5 @@
 " solarized contrast
-let g:solarized_contrast="high"
+let g:solarized_contrast = "high"
 
 " show 80 - 100 character limit
 set colorcolumn=81,100
@@ -14,10 +14,7 @@ set softtabstop=2
 noremap <silent> <c-b> :CtrlPBuffer<CR>
 
 " disable neocomplcache
-let g:neocomplcache_disable_auto_complete=1
-
-" disable (|{ complete
-let g:autoclose_on=0
+let g:neocomplcache_disable_auto_complete = 1
 
 " disable syntastic for sass
 let g:syntastic_mode_map = { 'passive_filetypes': ['sass', 'scss'] }
@@ -29,3 +26,4 @@ set isk-=.
 
 UnBundle 'gorodinskiy/vim-coloresque'
 UnBundle 'tpope/vim-rails'
+UnBundle 'jiangmiao/auto-pairs'
