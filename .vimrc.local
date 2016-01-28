@@ -1,3 +1,6 @@
+" linux font
+set guifont=DejaVu\ Sans\ Mono\ 9
+
 " solarized contrast
 let g:solarized_contrast = "high"
 
