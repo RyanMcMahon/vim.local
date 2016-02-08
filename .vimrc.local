@@ -1,6 +1,9 @@
 " solarized contrast
 let g:solarized_contrast = "high"
 
+" set make NERDTree wider
+let g:NERDTreeWinSize=50
+
 " show 80 - 100 character limit
 set colorcolumn=81,100
 let &colorcolumn=join(range(81,100),",")
@@ -12,6 +15,12 @@ set softtabstop=2
 
 " Open buffers with ctrlp
 noremap <silent> <c-b> :CtrlPBuffer<CR>
+
+" Move vertically between windows
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
+map <C-H> <C-W>h
 
 " disable neocomplcache
 let g:neocomplcache_disable_auto_complete = 1
